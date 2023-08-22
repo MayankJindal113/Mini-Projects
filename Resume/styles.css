@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{   
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    background: rgb(15, 15, 15);
+}
+
+.page{
+    background-color: white;
+    width: 50%;
+    min-height: 100%;
+    border: 3px solid darkblue;
+    /* margin-bottom:10px; */
+    margin: 0  auto;
+    /* margin-top: 10px; */
+    padding: 0 50px;
+
+}
+
+.page h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 3.5rem;
+    padding-top:5%;
+}
+
+.Contact{
+    font-size: .9rem;
+    text-align: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.page hr{
+    
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+/*     Carrer Objective        */
+
+.border{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: darkgray;
+    border: 2px solid black;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+}
+/* .content{
+    margin-bottom: 15px;
+} */
+
+.highlight{
+    font-weight: bold;
+    /* color: aquamarine; */
+}
+.bold{
+    font-weight: bold;
+    display: inline;
+}
+
+.elc{
+    list-style-type: none;
+    margin-left: 2%;
+}
+
+.elc li{
+    padding-left: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+}
+.elc li::before{
+    content: "\25A0 ";
+    font-size: 1rem;
+}
+
+.inst{
+    list-style-type: none;
+    margin-left:0;
+}
+.inst li{
+    padding: 2.5px;
+    display: inline;
+}
+.inst:before{
+    content: "\2022";
+    font-size: 1.3rem;
+}
+.cred{
+    list-style-type: none;
+    align-items: right;
+    float: right;
+}
+#h{
+    margin-left:2% ;
+}
+
+/*      Projects      */
+
+.oll{
+    margin: 0 2%;
+}
+
+.bullets li{
+    list-style-type: none;
+    margin: 0;
+}
+.bullets li::before{
+    content: "\2022";
+    font-size: 1.3rem;
+}
+.desc{
+    font-size: 1.1rem;
+}
+/* .last{
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+} */
+
+
+
+
+
+
+
+/* @media (min-width: 601px)and (max-width: 700px) {
+    html{
+        font-size:10px;
+    }
+}
+@media (max-width: 600px) {
+    html{
+        font-size:80px;
+    }
+} */
